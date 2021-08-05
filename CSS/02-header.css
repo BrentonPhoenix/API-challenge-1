@@ -3,4 +3,6 @@ h1{
     justify-content: center;
     font-family:  var(--font-one);
     color: #0546E8 ;
+    letter-spacing: 5px;
+    font-size: 75px;
 }
