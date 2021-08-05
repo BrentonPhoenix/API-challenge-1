@@ -4,14 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Randomizer</title>
+    <title>Pokemon Randomizer</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!--My CSS-->
+    <link rel="stylesheet" href="./CSS/00-main.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="col-12">
+        <h1>Get your Pokemon Team!</h1>
+    </div>
     
-    <h1>My Top 5 Favorite Pokemon!</h1>
 
 
-    <script src="./Randomizer.js">
+    <!--Lets do a table instead!-->
+    <table class="table table-striped">
+        <tr class="table-warning">
+            <th class="columnOne">Team Order</th>
+            <th>Pokedex Number</th>
+            <th>Pokemon Name</th>
+        </tr>
+        <tr class="table-info">
+            <td class="columnOne">1</td>
+            <td class="column2" id="pokemonNumberRw1">?</td>
+            <td class="column3" id="pokemonNameRw1"></td>
+        </tr>
+        <tr class="table-warning">
+            <td class="columnOne">2</td>
+            <td class="column2" id="pokemonNumberRw2">?</td>
+            <td class="column3" id="pokemonNameRw2"></td>
+        </tr>
+        <tr class="table-info">
+            <td class="columnOne">3</td>
+            <td class="column2" id="pokemonNumberRw3">?</td>
+            <td class="column3" id="pokemonNameRw3"></td>
+        </tr>
+        <tr class="table-warning"> 
+            <td class="columnOne">4</td>
+            <td class="column2" id="pokemonNumberRw4">?</td>
+            <td class="column3" id="pokemonNameRw4"></td>
+        </tr>
+        <tr class="table-info">
+            <td class="columnOne">5</td>
+            <td class="column2" id="pokemonNumberRw5">?</td>
+            <td class="column3" id="pokemonNameRw5"></td>
+        </tr>
+        <tr class="table-warning">
+            <td class="columnOne">6</td>
+            <td class="column2"  id="pokemonNumberRw6">?</td>
+            <td class="column3" id="pokemonNameRw6"></td>
+        </tr>
+        
+    </table>
+    
+
+    <div class="container">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+              <button id="activateRandomizer">Who's that Pokemon?</button>
+          </div>
+          <div class="col"></div>
+        </div>
+        <!--<div class="row">
+          <div class="col-8">col-8</div>
+          <div class="col-4">col-4</div>
+        </div> -->
+      
+    
+
+    </div>
+
+    <!--JavaScript-->
+    <script src="./pokemon.js">
     </script>
     
 </body>

@@ -1,0 +1,7 @@
+.rowOne{
+    display: flex;
+    justify-content: left;
+}
+th{
+    color: #0546E8 ;
+}

@@ -1,0 +1,6 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family:  var(--font-one);
+    color: #0546E8 ;
+}
