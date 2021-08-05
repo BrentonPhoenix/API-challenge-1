@@ -1,3 +1,17 @@
 body{
     background-color: #F0D300;
 }
+
+#logo{
+    background-color:#0546E8;
+    display: flex;
+    justify-content: center;
+}
+
+#imageThreeBirds{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 5px 0px ;
+    padding: 5px 0px 0px 0px;
+}
