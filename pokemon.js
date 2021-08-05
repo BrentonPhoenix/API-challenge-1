@@ -28,42 +28,42 @@ function variableFunction(json){
     //fetch(pokeAPI)
     //.then(response => response.json())
     //.then(data => console.log(data.response[pokeRandom]))
-    document.getElementById("pokemonNumberRw1").innerText = pokeRandom
+    document.getElementById("pokemonNumberRw1").innerText = pokeRandom + 1
     document.getElementById("pokemonNameRw1").innerText = a.results[pokeRandom].name
   } else if(document.getElementById("pokemonNumberRw2").innerText == "?"){
     let pokeRandom = Math.floor(Math.random(0) * 151);
     //fetch(pokeAPI)
     //.then(response => response.json())
     //.then(data => data.response[pokeRandom])
-    document.getElementById("pokemonNumberRw2").innerText = pokeRandom ;
+    document.getElementById("pokemonNumberRw2").innerText = pokeRandom + 1
     document.getElementById("pokemonNameRw2").innerText = a.results[pokeRandom].name ;
   }else if(document.getElementById("pokemonNumberRw3").innerText == "?"){
     let pokeRandom = Math.floor(Math.random(0) * 151);
     //fetch(pokeAPI)
     //.then(response => response.json())
     //.then(data => console.log(data.response[pokeRandom]))
-    document.getElementById("pokemonNumberRw3").innerText = pokeRandom
+    document.getElementById("pokemonNumberRw3").innerText = pokeRandom + 1
     document.getElementById("pokemonNameRw3").innerText = a.results[pokeRandom].name
   }else if(document.getElementById("pokemonNumberRw4").innerText == "?"){
     let pokeRandom = Math.floor(Math.random(0) * 151);
     //fetch(pokeAPI)
     //.then(response => response.json())
     //.then(data => console.log(data.response[pokeRandom]))
-    document.getElementById("pokemonNumberRw4").innerText = pokeRandom
+    document.getElementById("pokemonNumberRw4").innerText = pokeRandom + 1
     document.getElementById("pokemonNameRw4").innerText =  a.results[pokeRandom].name
   }else if(document.getElementById("pokemonNumberRw5").innerText == "?"){
     let pokeRandom = Math.floor(Math.random(0) * 151);
     //fetch(pokeAPI)
     //.then(response => response.json())
     //.then(data => console.log(data.response[pokeRandom]))
-    document.getElementById("pokemonNumberRw5").innerText = pokeRandom
+    document.getElementById("pokemonNumberRw5").innerText = pokeRandom + 1
     document.getElementById("pokemonNameRw5").innerText = a.results[pokeRandom].name
   }else if(document.getElementById("pokemonNumberRw6").innerText == "?"){
     let pokeRandom = Math.floor(Math.random(0) * 151);
     //fetch(pokeAPI)
     //.then(response => response.json())
     //.then(data => console.log(data.response[pokeRandom]))
-    document.getElementById("pokemonNumberRw6").innerText = pokeRandom
+    document.getElementById("pokemonNumberRw6").innerText = pokeRandom+ 1
     document.getElementById("pokemonNameRw6").innerText = a.results[pokeRandom].name
   } else {
     console.log('WHYYYYYYYY////')
